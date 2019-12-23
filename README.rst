@@ -74,6 +74,7 @@ This package uses code (as is or as reference) from:
 * https://github.com/ranaroussi/pywallet
 * https://github.com/oskyk/cashaddress
 * https://github.com/ethereum/eth-utils
+* https://github.com/miracle2k/ripple-python
 
 This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
 
