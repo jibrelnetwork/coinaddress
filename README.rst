@@ -24,7 +24,6 @@ Crypto address generator from xpub
 
 
 * Free software: MIT license
-* Documentation: https://coinaddress.readthedocs.io.
 
 
 Features
