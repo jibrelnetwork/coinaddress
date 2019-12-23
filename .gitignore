@@ -2,6 +2,7 @@
 .eggs
 .pytest_cache
 *.egg-info/
+dist
 *.pyc
 
 .tox
