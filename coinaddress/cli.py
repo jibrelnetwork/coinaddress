@@ -49,7 +49,7 @@ def main(network, xpub, xpub_file, path, output, number=1):
     """
     if xpub is None:
         xpub = xpub_file.readline().strip()
-    net = registry.get(network)()
+    net = registry.get(network)
     path_parts = path.split('/')
     last_index = int(path_parts[-1])
     prefix = '/'.join(path_parts[:-1])

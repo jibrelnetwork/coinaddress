@@ -55,8 +55,26 @@ To generate another bunch of addresses:
 
 xpub can be passed with `--xpub` option but you should avoid this and prefer read from file for security reasons.
 
+Using from code
+---------------
+
+You can use public python interface to convert addresses:
+
+    from coinaddress import address_from_xpub
+    address_from_xpub(
+        network='bitcoin',
+        xpub='<XPUB>',
+        path='0/0'
+    )
+
 Credits
 -------
+
+This package uses code (as is or as reference) from:
+
+* https://github.com/ranaroussi/pywallet
+* https://github.com/oskyk/cashaddress
+* https://github.com/ethereum/eth-utils
 
 This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
 

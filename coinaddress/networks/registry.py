@@ -5,7 +5,7 @@ class Registry:
     def register(self, *names):
         def wrapper(cls):
             for n in names:
-                self.__networks[n] = cls
+                self.__networks[n] = cls()
             return cls
         return wrapper
 
