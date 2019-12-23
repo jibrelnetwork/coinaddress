@@ -1,0 +1,13 @@
+.idea
+.eggs
+.pytest_cache
+*.egg-info/
+*.pyc
+
+.tox
+
+# pyenv
+.python-version
+
+# macos
+.DS_Store
