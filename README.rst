@@ -37,19 +37,19 @@ Features
 Getting started
 ---------------
 
-Install package using pip (prefer virtualenv):
+Install package using pip (prefer virtualenv)::
 
     pip install coinaddress
 
-And you can start use provided CLI. Read help first:
+And you can start use provided CLI. Read help first::
 
     coinaddress --help
 
-To generate 1000 addresses for bitcoin xpub from file (xpub should be a single line in this file):
+To generate 1000 addresses for bitcoin xpub from file (xpub should be a single line in this file)::
 
     cat xpub.txt | coinaddress bitcoin 0 -n 1000
 
-To generate another bunch of addresses:
+To generate another bunch of addresses::
 
     cat xpub.txt | coinaddress bitcoin 1000 -n 1000
 
@@ -58,7 +58,7 @@ xpub can be passed with `--xpub` option but you should avoid this and prefer rea
 Using from code
 ---------------
 
-You can use public python interface to convert addresses:
+You can use public python interface to convert addresses::
 
     from coinaddress import address_from_xpub
     address_from_xpub(
