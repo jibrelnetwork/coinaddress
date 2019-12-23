@@ -2,7 +2,7 @@
 
 __author__ = """Roman Tolkachyov"""
 __email__ = 'roman@tolkachyov.name'
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 
 from .coinaddress import address_from_xpub
 
